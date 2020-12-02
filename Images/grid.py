@@ -8,9 +8,9 @@ files.sort()
 
 files = [file for file in files if not file.startswith(".ipynb")]
 
-composite = Image.new("RGB",(900,900))
+composite = Image.new("RGB",(300,300))
 
-#files = files[0:9]
+files = files[0:9]
 
 x = 0
 y = 0
