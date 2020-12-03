@@ -8,7 +8,7 @@ files.sort()
 
 files = [file for file in files if file.endswith(".png")]
 
-composite = Image.new("RGB",(300,300)) # <-- this represents the final image
+composite = Image.new("RGBA",(300,300)) # <-- this represents the final image
 
 files = files[0:9]
 
@@ -25,4 +25,3 @@ for square in files:
     x += 1
 
 composite.save("composite.png")
-    
